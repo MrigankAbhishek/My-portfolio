@@ -292,27 +292,12 @@ export default function Portfolio() {
                 I'm always looking for opportunities to apply what I learn to meaningful problems.
               </p>
             </div>
-
-            <h2 style={{ ...styles.sectionTitle, marginTop: "32px" }}>Quick Highlights</h2>
-            <div style={styles.card}>
-              <ul style={styles.bulletList}>
-                <li style={styles.bullet}>🎓 B.E. CSE student at KIIT — CGPA 8.47</li>
-                <li style={styles.bullet}>🤖 Built CNN-based car model classifier with 77% accuracy</li>
-                <li style={styles.bullet}>💳 Achieved 96% fraud recall with Random Forest classifier</li>
-                <li style={styles.bullet}>💹 Developed full crypto tracker with live CoinGecko integration</li>
-                <li style={styles.bullet}>🛠 Comfortable with Python, Java, React, and ML/DL stacks</li>
-              </ul>
-            </div>
           </div>
         )}
 
         {activeTab === "Education" && <Education />}
         {activeTab === "Projects" && <Projects />}
         {activeTab === "Skills" && <Skills />}
-
-        <footer style={styles.footer}>
-          <p>© 2026 Mrigank Abhishek · Built with React</p>
-        </footer>
 
       </div>
     </div>
