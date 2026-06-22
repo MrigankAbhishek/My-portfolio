@@ -39,7 +39,7 @@ const data = {
       name: "DevCollab – Collaborative Coding Platform",
       period: "Apr 2026 – Jun 2026",
       tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
-      demo: "#", // replace with your demo link
+      demo: "https://dev-collab-rouge.vercel.app/", // replace with your demo link
       points: [
         "Full-stack real-time collaborative code editor with room-based session isolation using Socket.io WebSockets.",
         "GitHub OAuth authentication with JWT session management and role-based access control (room owner vs member) via Passport.js.",
@@ -52,7 +52,7 @@ const data = {
       name: "AutoBid – Automobile Bidding Platform",
       period: "Dec 2025 – Mar 2026",
       tech: ["TensorFlow", "Pandas", "NumPy", "SupaBase", "React"],
-      demo: "#", // replace with your demo link
+      demo: "https://auto-bid-nine.vercel.app/", // replace with your demo link
       points: [
         "Full-stack car auction platform with AI-based vehicle detection, damage analysis, and price prediction.",
         "CNN classifier using EfficientNetB0 for car model detection — 77% accuracy, 0.78 precision.",
