@@ -39,7 +39,7 @@ const data = {
       name: "DevCollab – Collaborative Coding Platform",
       period: "Apr 2026 – Jun 2026",
       tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
-      demo: "https://dev-collab-rouge.vercel.app/", // replace with your demo link
+      demo: "https://dev-collab-rouge.vercel.app/", 
       points: [
         "Full-stack real-time collaborative code editor with room-based session isolation using Socket.io WebSockets.",
         "GitHub OAuth authentication with JWT session management and role-based access control (room owner vs member) via Passport.js.",
@@ -52,7 +52,7 @@ const data = {
       name: "AutoBid – Automobile Bidding Platform",
       period: "Dec 2025 – Mar 2026",
       tech: ["TensorFlow", "Pandas", "NumPy", "SupaBase", "React"],
-      demo: "https://auto-bid-nine.vercel.app/", // replace with your demo link
+      demo: "https://auto-bid-nine.vercel.app/", 
       points: [
         "Full-stack car auction platform with AI-based vehicle detection, damage analysis, and price prediction.",
         "CNN classifier using EfficientNetB0 for car model detection — 77% accuracy, 0.78 precision.",
@@ -100,7 +100,6 @@ const styles = {
   },
   container: { maxWidth: "860px", margin: "0 auto", padding: "40px 24px" },
 
-  // Nav
   nav: {
     display: "flex",
     gap: "24px",
@@ -123,14 +122,12 @@ const styles = {
     transition: "color 0.2s",
   }),
 
-  // Hero
   hero: { textAlign: "center", marginBottom: "48px" },
   heroName: { fontSize: "42px", fontWeight: "bold", margin: "0 0 8px", letterSpacing: "-1px" },
   heroTitle: { fontSize: "18px", color: "#666", margin: "0 0 20px" },
   contactRow: { display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" },
   contactLink: { color: "#c0392b", textDecoration: "none", fontSize: "14px" },
 
-  // Sections
   sectionTitle: {
     fontSize: "22px",
     fontWeight: "bold",
@@ -139,7 +136,6 @@ const styles = {
     marginBottom: "24px",
   },
 
-  // Cards
   card: {
     backgroundColor: "#fff",
     border: "1px solid #e5e0da",
@@ -152,7 +148,6 @@ const styles = {
   cardSub: { fontSize: "14px", color: "#666", margin: "0 0 2px" },
   cardScore: { fontSize: "14px", color: "#c0392b", fontWeight: "bold" },
 
-  // Demo badge
   demoBadge: {
     display: "inline-block",
     fontSize: "12px",
@@ -165,7 +160,6 @@ const styles = {
     whiteSpace: "nowrap",
   },
 
-  // Tech badges
   techList: { display: "flex", flexWrap: "wrap", gap: "8px", margin: "12px 0" },
   techBadge: {
     backgroundColor: "#f0ece6",
@@ -175,11 +169,9 @@ const styles = {
     fontSize: "12px",
   },
 
-  // Bullets
   bulletList: { paddingLeft: "20px", margin: "0" },
   bullet: { fontSize: "14px", color: "#444", marginBottom: "4px", lineHeight: "1.6" },
 
-  // Skills
   skillGrid: {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
@@ -195,7 +187,6 @@ const styles = {
     fontSize: "13px",
   },
 
-  // Coursework
   courseList: { display: "flex", flexWrap: "wrap", gap: "10px" },
   courseChip: {
     backgroundColor: "#fff",
