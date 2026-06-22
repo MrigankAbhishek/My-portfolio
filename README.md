@@ -2,7 +2,7 @@
 
 A clean, minimal personal portfolio website built with React.
 
-🌐 **Live Demo:** [your-portfolio.vercel.app](https://your-portfolio.vercel.app)
+🌐 **Live Demo:** https://myportfolio-rho-two-56.vercel.app/
 
 ---
 
